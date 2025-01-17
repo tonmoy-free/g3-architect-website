@@ -225,6 +225,18 @@ margin-bottom: 50px;
     filter: grayscale(100%);
 }
 
+/* footer section styles */
+footer{
+    text-align: center;
+    background-color: rgba(255, 244, 231, 1.00);
+    margin-top: 130px;
+    font-size: 1.25rem;
+}
+
+footer p{
+    padding: 38px 410px;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
@@ -258,6 +270,9 @@ margin-bottom: 50px;
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    footer p{
+        padding: 38px 10px;
     }
 }
 
