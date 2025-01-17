@@ -173,8 +173,14 @@ margin-bottom: 50px;
     .teams{
         flex-direction: column;
     }
-    .team-image-container{
-        grid-template-columns: repeat(1 ,1fr);
+    .team-image-container,
+    .facts-container{
+        grid-template-columns: 1fr;  /* ata o lika jai repeat(1, 1fr) */
+    }
+
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
     }
     
     .our-features{
