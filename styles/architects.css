@@ -160,9 +160,9 @@ margin-bottom: 50px;
     font-weight: 700;
 }
 
-.featured-architect img{
+/* .featured-architect img{
   width: 100%;
-}
+} */
 
 /* .feature-left-container{
     padding-right: 300px;
@@ -271,9 +271,13 @@ footer p{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .featured-architect img{
+        width: 100%;
+      }
     footer p{
         padding: 38px 10px;
     }
+
 }
 
 /* medium size device */
